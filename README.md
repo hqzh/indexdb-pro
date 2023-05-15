@@ -20,28 +20,9 @@ $ yarn add indexdb-pro
 ```
 
 
-
 ## :bookmark_tabs: 文档
 [API](./doc/api.md)
 
-## :kissing_heart: 贡献者指南
-首次运行需要先安装依赖
-
-```bash
-$ npm install
-```
-
-一键打包生成生产代码
-
-```bash
-$ npm run build
-```
-
-运行单元测试:
-
-```bash
-$ npm test
-```
 
 ## :gear: 更新日志
 [CHANGELOG.md](./CHANGELOG.md)
