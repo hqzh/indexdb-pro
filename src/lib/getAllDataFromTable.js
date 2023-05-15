@@ -1,4 +1,4 @@
-function getAllDataFromTable({ databaseName, tableName } = {}) {
+const getAllDataFromTable = ({ databaseName, tableName } = {}) => {
     if (!databaseName || typeof databaseName !== 'string' || !tableName || typeof tableName !== 'string') {
         throw new Error('参数错误，必须传入字符串类型的 databaseName 和 tableName 参数');
     }
@@ -33,6 +33,6 @@ function getAllDataFromTable({ databaseName, tableName } = {}) {
             };
         };
     });
-}
+};
 
 export default getAllDataFromTable;
