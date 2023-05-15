@@ -1,7 +1,7 @@
 # [indexdb-pro](https://github.com/hqzh/indexdb-pro)
 [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/hqzh/indexdb-pro/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/hqzh/indexdb-pro.svg?branch=main)](https://travis-ci.org/hqzh/indexdb-pro)
+[![Build Status](https://app.travis-ci.com/hqzh/indexdb-pro.svg?branch=main)](https://travis-ci.org/hqzh/indexdb-pro)
 [![Coveralls](https://img.shields.io/coveralls/hqzh/indexdb-pro.svg)](https://coveralls.io/github/hqzh/indexdb-pro)
 [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/indexdb-pro)
 [![NPM downloads](http://img.shields.io/npm/dm/indexdb-pro.svg?style=flat-square)](http://www.npmtrends.com/indexdb-pro)
