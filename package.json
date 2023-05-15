@@ -13,7 +13,8 @@
     "lint": "eslint -c .eslintrc.js src/*.js",
     "lint:fix": "eslint --fix -c .eslintrc.js 'src/**/*.js' --fix",
     "build:esm": "rollup -c config/rollup.config.esm.js",
-    "build": "npm run clean && npm run build:esm"
+    "build": "npm run clean && npm run build:esm",
+    "coveralls": "coveralls"
   },
   "author": "hqzh",
   "license": "MIT",
@@ -32,15 +33,15 @@
     "node": ">= 0.12.0"
   },
   "devDependencies": {
-    "@js-lib/cli": "^1.6.0",
-    "cross-env": "5.2.0",
-    "rimraf": "2.6.2",
-    "es5-shim": "4.5.10",
-    "eslint": "^5.15.1",
     "@babel/cli": "7.1.5",
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
+    "@js-lib/cli": "^1.6.0",
+    "cross-env": "5.2.0",
+    "es5-shim": "4.5.10",
+    "eslint": "^5.15.1",
+    "rimraf": "2.6.2",
     "rollup": "0.57.1",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-commonjs": "8.3.0",
@@ -48,6 +49,7 @@
     "rollup-plugin-uglify": "1.0.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.2"
+    "@babel/runtime": "^7.1.2",
+    "coveralls": "^3.1.1"
   }
 }
