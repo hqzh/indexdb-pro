@@ -8,7 +8,7 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/hqzh/indexdb-pro.svg)](http://isitmaintained.com/project/hqzh/indexdb-pro "Percentage of issues still open")
 
 
-封装浏览器indexdb api，使用更简单。
+封装浏览器indexdb api，使用更简单。[社区更好的库](https://github.com/dexie/Dexie.js)
 
 
 ## :rocket: 使用者指南
